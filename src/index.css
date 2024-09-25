@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  /* background: #585d5f; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  color: white;
+}
+
+button {
+  color: white;
+  background: #4ba2cb;
+  padding: 0.8rem;
+  width: 17rem;
+}
+
+input,
+textarea,
+button {
+  border-radius: 25px;
+}
+
+button:disabled {
+  background: #85b0c3af;
+}
